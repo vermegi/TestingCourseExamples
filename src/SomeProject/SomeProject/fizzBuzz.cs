@@ -1,16 +1,27 @@
-﻿namespace SomeProject
+﻿using System;
+
+namespace SomeProject
 {
     public class FizzBuzz
     {
-        public string GiveAnswer(int i)
+        public void GiveAnswer(int i)
         {
-            if (i%3 == 0 && i%5 == 0)
-                return "FizzBuzz";
+            var hasWritten = false;
             if (i%3 == 0)
-                return "Fizz";
+            {
+                Console.Write("Fizz");
+                hasWritten = true;
+            }
             if (i%5 == 0)
-                return "Buzz";
-            return i.ToString();
+            {
+                Console.Write("Buzz");
+                hasWritten = true;
+            }
+
+            if (! hasWritten)
+                Console.Write(i);
+
+            Console.WriteLine();
         }
     }
 }
