@@ -4,24 +4,31 @@ namespace SomeProject
 {
     public class FizzBuzz
     {
+        private readonly IAmAConsole _theConsole;
+
+        public FizzBuzz(IAmAConsole theConsole)
+        {
+            _theConsole = theConsole;
+        }
+
         public void GiveAnswer(int i)
         {
             var hasWritten = false;
             if (i%3 == 0)
             {
-                Console.Write("Fizz");
+                _theConsole.Write("Fizz");
                 hasWritten = true;
             }
             if (i%5 == 0)
             {
-                Console.Write("Buzz");
+                _theConsole.Write("Buzz");
                 hasWritten = true;
             }
 
             if (! hasWritten)
-                Console.Write(i);
+                _theConsole.Write(i.ToString());
 
-            Console.WriteLine();
+            _theConsole.WriteLine();
         }
     }
 }
