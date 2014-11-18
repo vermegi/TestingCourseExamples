@@ -7,10 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SomeFizzBuzzing", "SomeFizz
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SomeFizzBuzzing.Tests", "SomeFizzBuzzing.Tests\SomeFizzBuzzing.Tests.csproj", "{BF088259-29AC-4AB9-9A8A-E818CE30DD8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SomethingComplxWithMedicine", "SomethingComplxWithMedicine\SomethingComplxWithMedicine.csproj", "{55A398F2-3F7A-41C9-A224-9C1CDE1D082C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Website.Tests", "Website.Tests\Website.Tests.csproj", "{AC8B16E1-A2D5-4AB9-9C60-57A2B3127FAC}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{91D40619-F802-4EA4-BA92-16ED30A2635C}"
 	ProjectSection(SolutionItems) = preProject
 		.nuget\NuGet.Config = .nuget\NuGet.Config
@@ -32,14 +28,6 @@ Global
 		{BF088259-29AC-4AB9-9A8A-E818CE30DD8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF088259-29AC-4AB9-9A8A-E818CE30DD8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF088259-29AC-4AB9-9A8A-E818CE30DD8A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{55A398F2-3F7A-41C9-A224-9C1CDE1D082C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{55A398F2-3F7A-41C9-A224-9C1CDE1D082C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{55A398F2-3F7A-41C9-A224-9C1CDE1D082C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{55A398F2-3F7A-41C9-A224-9C1CDE1D082C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AC8B16E1-A2D5-4AB9-9C60-57A2B3127FAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AC8B16E1-A2D5-4AB9-9C60-57A2B3127FAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AC8B16E1-A2D5-4AB9-9C60-57A2B3127FAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AC8B16E1-A2D5-4AB9-9C60-57A2B3127FAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
