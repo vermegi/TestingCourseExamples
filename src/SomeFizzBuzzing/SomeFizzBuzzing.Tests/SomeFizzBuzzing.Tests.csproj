@@ -45,17 +45,40 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="TechTalk.SpecFlow">
+      <HintPath>..\packages\SpecFlow.1.9.0\lib\net35\TechTalk.SpecFlow.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AAATest.cs" />
+    <Compile Include="CalculatorSpecs.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CalculatorSpecs.feature</DependentUpon>
+    </Compile>
+    <Compile Include="CalculatorSpecsSteps.cs" />
     <Compile Include="FictureTestsBetter.cs" />
     <Compile Include="FizBuzz2BetterTests.cs" />
     <Compile Include="FizBuzz2Tests.cs" />
     <Compile Include="FizzBuzzTests.cs" />
+    <Compile Include="OrderingSpecs.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OrderingSpecs.feature</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RomanNumberTests.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.config" />
+    <None Include="CalculatorSpecs.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>CalculatorSpecs.feature.cs</LastGenOutput>
+    </None>
+    <None Include="OrderingSpecs.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>OrderingSpecs.feature.cs</LastGenOutput>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
