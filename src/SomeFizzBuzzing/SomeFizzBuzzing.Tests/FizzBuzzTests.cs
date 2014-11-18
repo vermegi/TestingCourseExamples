@@ -12,10 +12,13 @@ namespace SomeFizzBuzzing.Tests
         [TestCase(3, "Fizz")]
         public void It_returns_1_for_1(int input, string expected)
         {
+            //Arrange
             var sut = new FizzBuzz();
 
+            //Act
             var result = sut.GiveAnswer(input);
 
+            //Assert
             Assert.That(result, Is.EqualTo(expected));
         }
 
