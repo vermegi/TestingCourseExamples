@@ -17,5 +17,10 @@ namespace SomeFizzBuzzing
                 return "Buzz";
             return i.ToString();
         }
+
+        public int Calculate(int a, int b)
+        {
+            return a/b;
+        }
     }
 }
